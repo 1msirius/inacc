@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.prose {
+  @apply text-[#000000] dark:text-[#EDEDED];
+}
+
+.prose a {
+  @apply transition-all decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em] font-normal text-[#F06321] dark:text-[#FF8040] no-underline;
+}
+
+.prose a:hover {
+  @apply decoration-[#F06321] dark:decoration-[#FF8040] underline-offset-2 underline;
+}
+
+.prose h2 {
+  font-weight: 600;
+}
+
+.prose h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.prose .button {
+  @apply no-underline hover:no-underline;
+}
