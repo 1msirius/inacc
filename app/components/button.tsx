@@ -8,9 +8,11 @@ export default function Buttons() {
         href="/manifesto"
         className="group relative flex items-center justify-between sm:flex-1 h-[70px] px-6 rounded-md border border-neutral-300 dark:border-neutral-700 bg-[#FAFAFA] dark:bg-[#191919] button"
       >
-        <div className="flex items-center gap-3 text-[#FF6821] dark:text-[#FF8040]">
-          <LuScroll className="text-[22px]" />
-          <span className="text-[17px] font-medium">Manifesto</span>
+        <div className="flex items-center gap-3 ">
+          <LuScroll className="text-neutral-500 group-hover:text-[#FF6821] dark:group-hover:text-[#FF8040] text-[22px]" />
+          <span className="text-[17px] font-medium text-[#FF6821] dark:text-[#FF8040]">
+            Manifesto
+          </span>
         </div>
         <LuArrowUpRight className="text-neutral-500 group-hover:text-[#FF6821] dark:group-hover:text-[#FF8040] text-[22px]" />
       </Link>
@@ -19,9 +21,11 @@ export default function Buttons() {
         href="#"
         className="group relative flex items-center justify-between sm:flex-1 h-[70px] px-6 rounded-md border border-neutral-300 dark:border-neutral-700 bg-[#FAFAFA] dark:bg-[#191919] button"
       >
-        <div className="flex items-center gap-3 dark:text-[#4CAF82] text-[#036938]">
-          <LuBookmark className="text-[22px]" />
-          <span className="text-[17px] font-medium">Substack</span>
+        <div className="flex items-center gap-3 ">
+          <LuBookmark className="text-neutral-500 group-hover:text-[#036938] dark:group-hover:text-[#4CAF82] text-[22px]" />
+          <span className="text-[17px] font-medium dark:text-[#4CAF82] text-[#036938]">
+            Substack
+          </span>
         </div>
         <LuArrowUpRight className="text-neutral-500 group-hover:text-[#036938] dark:group-hover:text-[#4CAF82] text-[22px]" />
       </Link>
