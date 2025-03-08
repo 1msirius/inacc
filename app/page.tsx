@@ -17,7 +17,7 @@ export default function Home() {
           economic powerhouse.
         </p>
         <p>
-          It emphasizes innovation, deep tech, and sovereignty to restore
+          It champions innovation, deep tech, and sovereignty to restore
           India’s historic status as the &ldquo;
           <a target="_blank" href="#">
             Golden Bird
